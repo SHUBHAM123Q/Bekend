@@ -2,10 +2,6 @@
 \connect root@localhost
 show databases;
 create database dbName;
-use dbName;
-show tables;
-
-
 
 (1)to create database
 create database db_name;
@@ -29,4 +25,10 @@ insert into table_name value (table_value);
 (6)to check table
 select * from table_name;
 
-(7) 
+(7)to check all table
+show tables;
+
+(8)to delete table
+drop table table_name;
+
+(9)to 
