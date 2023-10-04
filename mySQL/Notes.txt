@@ -1,0 +1,32 @@
+\sql 
+\connect root@localhost
+show databases;
+create database dbName;
+use dbName;
+show tables;
+
+
+
+(1)to create database
+create database db_name;
+
+(2)to delete database
+drop database db_name;
+
+(3)to access database
+use db_name;
+
+(4)to create table
+create table table_name(
+   column_name1 datatype constraint,
+   column_name2 datatype constraint,
+   column_name3 datatype constraint
+);
+
+(5)to insert data into table
+insert into table_name value (table_value);
+
+(6)to check table
+select * from table_name;
+
+(7) 
